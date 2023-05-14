@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 bool isPalindrome(std::string text) {
     std::string reversed_text = "";
@@ -17,5 +18,6 @@ bool isPalindrome(std::string text) {
 int main() {
     std::cout << isPalindrome("madam") << "\n";
     std::cout << isPalindrome("racecar") << "\n";
-    std::cout << isPalindrome("matter") << "\n";
+    std::cout << isPalindrome("isaiah") << "\n";
+    return 0;
 }
