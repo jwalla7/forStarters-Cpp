@@ -24,7 +24,7 @@ int getUsersAge() {
 int main() {
     constexpr int addOneYear = 1; // compile-time const
     const int usersCurrentAge = getUsersAge(); // runtime const
-    const int usersAgeNextYear = usersCurrentAge + 1; // usersCurrentAge + 1 is runtime expression
+    const int usersAgeNextYear = usersCurrentAge + addOneYear; // usersCurrentAge + 1 is runtime expression
     cout << "Wow, next year you will be " << usersAgeNextYear << " years old! \n"; // runtime expression
     
     return 0; 
