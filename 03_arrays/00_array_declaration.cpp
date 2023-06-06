@@ -2,8 +2,8 @@
 When declaring an array,  [ ] means "array of". The size of an array must be a constant expression.
 
 All arrays have 0 as their lower bound.
-    for example: const int numbers[7];
-        numbers has 7 elements, numbers[0] to numbers[6];
+For example: const int numbers[7];
+    numbers has 7 elements, numbers[0] to numbers[6];
 
 If an array has no data assigned/initalized to element(s), printing that element will cause the system to output "random memory data".
 */
