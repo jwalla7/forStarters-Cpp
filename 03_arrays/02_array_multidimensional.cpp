@@ -1,5 +1,5 @@
 /*
-Multidimensional arrays (also know as, 2D arrays) are represented as arrays of arrays.
+Multidimensional arrays are represented as arrays of arrays.
 */
 
 #include <iostream>
