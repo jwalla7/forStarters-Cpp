@@ -13,7 +13,7 @@ const string path = "./csv/numbers.csv";
 vector<string> data_buffer;
 /*
 Vector "std::vector"
-    Unlike a built-in array, which only remembers it's length.
+    Unlike a built-in array, which remembers it's length.
     Vector "std::vector", remembers it's length and capacity.
     Length is how many elements are being used in the array, for example: int* numbers{new int[10]};
     Capacity is how many elements are allocated in memory, for example: int* numbers{ new int[10]{0, 1, 2, 3, 4, 5}}
