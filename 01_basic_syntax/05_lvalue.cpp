@@ -1,14 +1,14 @@
 /**
-References enable you to read or modify the object being referenced. They are an alias for an existing object. There are two types of references: lvalue and rvalue
-The lvalue is an expression that refers to an object (identity to a specific location in memory) and can refer to a constant. A lvalue that is not declared const is often called a `modifiable lvalue`.
-To declare an lvalue reference type, use an ampersand in the type declaration.
-
-Declarations of reference variables require initialization.
-
-lvalue: Lvalues are commonly used in assignments, modifying the state of objects, and as targets for references and pointers.
-
-https://www.learncpp.com/cpp-tutorial/lvalue-references/
-*/
+ * References enable you to read or modify the object being referenced. They are an alias for an existing object. There are two types of references: lvalue and rvalue
+ * The lvalue is an expression that refers to an object (identity to a specific location in memory) and can refer to a constant. A lvalue that is not declared const is often called a `modifiable lvalue`.
+ * To declare an lvalue reference type, use an ampersand in the type declaration.
+ * 
+ * Declarations of reference variables require initialization.
+ * 
+ * lvalue: Lvalues are commonly used in assignments, modifying the state of objects, and as targets for references and pointers.
+ * 
+ * https://www.learncpp.com/cpp-tutorial/lvalue-references/
+ */
 #include <iostream>
 
 using namespace std;

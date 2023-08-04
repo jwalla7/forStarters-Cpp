@@ -1,11 +1,11 @@
-/*
-Vectors provide a dynamic array functionality that handles it's own memory management.
-This enables resizing (adding or removing elements) at runtime without having to explicitly allocate/deallocate memory use the "new", and "delete" operators.
-(The new operator allocates memory from the "free store", also known as "dynamic memory and heap")
-
-https://www.learncpp.com/cpp-tutorial/an-introduction-to-stdvector/
-
-*/
+/**
+ * Vectors provide a dynamic array functionality that handles it's own memory management.
+ * This enables resizing (adding or removing elements) at runtime without having to explicitly allocate/deallocate memory use the "new", and "delete" operators.
+ * (The new operator allocates memory from the "free store", also known as "dynamic memory and heap")
+ * 
+ * https://www.learncpp.com/cpp-tutorial/an-introduction-to-stdvector/
+ * 
+ */
 
 #include <iostream>
 #include <vector>
