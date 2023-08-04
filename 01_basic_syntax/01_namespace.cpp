@@ -2,7 +2,7 @@
 /**
  * Using namespace std tells the compiler to assume we are using the standard library.
  *
- * A namespace is abstract environment that holds logical groupings of unique entities (for example, functions).
+ * A namespace is an abstract environment that holds logical groupings of unique entities (for example, functions).
  *
  * Therefore, we no longer need to declare std
  */

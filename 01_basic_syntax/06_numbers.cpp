@@ -17,6 +17,7 @@ int main() {
 
     cout << "octal: " << octal << "\n";
     cout << "hexadecimal: " << hexadecimal << "\n";
+    cout << "integer: " << integer << "\n";
 
     return 0;
 }
