@@ -5,6 +5,8 @@ To declare an lvalue reference type, use an ampersand in the type declaration.
 
 Declarations of reference variables require initialization.
 
+lvalue: Lvalues are commonly used in assignments, modifying the state of objects, and as targets for references and pointers.
+
 https://www.learncpp.com/cpp-tutorial/lvalue-references/
 */
 #include <iostream>
