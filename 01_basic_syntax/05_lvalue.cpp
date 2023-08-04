@@ -15,15 +15,21 @@ int x = 3;
 double y = 5;
 char A = 'A';
 
-int& integer = x; // (&integer) variable is a lvalue to an object
-double& decimal = y; // (&decimal) variable is a lvalue to a double object
-char& character = A; // (&character) variable is a lvalue to a character object
+int& integerRef = x; // (&integer) variable is a lvalue to an object
+double& doubleRef = y; // (&decimal) variable is a lvalue to a double object
+char& charRef = A; // (&character) variable is a lvalue to a character object
 
 
 int main() {
-    cout << "integer: " << x << "\n";
-    cout << "double: " << y << "\n";
-    cout << "char: " << A << "\n";
+    cout << "x : " << x << " integerRef: " << integerRef <<"\n";
+    cout << "x + integerRef= " << x + integerRef <<"\n";
+    cout << "integerRef + x + integerRef= " << integerRef + x + integerRef <<"\n";
+    
+    cout << "y: " << y << " doubleRef: " <<  doubleRef << "\n";
+    cout << "y + doubleRef= " << y + doubleRef <<"\n";
+    
+    cout << "char: " << A << " charRef: " << charRef << "\n";
+    cout << "charchar= " << A << charRef << "\n";
     
     return 0;
 }
