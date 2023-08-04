@@ -19,17 +19,30 @@ int& integerRef = x; // (&integer) variable is a lvalue to an object
 double& doubleRef = y; // (&decimal) variable is a lvalue to a double object
 char& charRef = A; // (&character) variable is a lvalue to a character object
 
+int lvalue() {
+    // xAlias = y doesn't change xAlias to now reference 6. It evaluates as if written x = y
+    int x { 5 };
+    int y { 6 };
+    int& xAlias { x };
+    xAlias = y;
+
+    cout << "xAlias = " << xAlias << "\n";
+
+    return 0;
+}
+
 
 int main() {
+    lvalue();
     cout << "x : " << x << " integerRef: " << integerRef <<"\n";
-    cout << "x + integerRef= " << x + integerRef <<"\n";
-    cout << "integerRef + x + integerRef= " << integerRef + x + integerRef <<"\n";
+    cout << "x + integerRef = " << x + integerRef <<"\n";
+    cout << "integerRef + x + integerRef = " << integerRef + x + integerRef <<"\n";
     
     cout << "y: " << y << " doubleRef: " <<  doubleRef << "\n";
-    cout << "y + doubleRef= " << y + doubleRef <<"\n";
+    cout << "y + doubleRef = " << y + doubleRef <<"\n";
     
     cout << "char: " << A << " charRef: " << charRef << "\n";
-    cout << "charchar= " << A << charRef << "\n";
+    cout << "charchar = " << A << charRef << "\n";
     
     return 0;
 }
